@@ -13,8 +13,13 @@ body{
 font-family: 'Roboto', sans-serif;
 */
 
-nav#main_nav a {
+#main_nav{
+    position: fixed;
+    background-color: #fff;
+}
+#main_nav > ul >  li {
     display: inline-block;
+    list-style: none;
 }
 
 /*
