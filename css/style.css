@@ -9,21 +9,29 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6, h7{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
     text-align: center;
 }
 
-section{
+section {
     padding: 0 80px 100px;
     width: 100%;
 }
 
-section h2{
+section h2 {
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
 }
+
+
 /*style menu*/
 
 #main_nav {
@@ -33,6 +41,8 @@ section h2{
     top: 0;
     right: 0;
 }
+
+
 /*background-color: rgba(255,255,255,0); => dodanie przeźroczystości w menu i "wrzcenie" go na zdjęcie*/
 
 #main_nav>ul {
@@ -74,33 +84,34 @@ section h2{
     font-family: 'Roboto', sans-serif;
 }
 
+
 /*koniec stylów nagłówka*/
+
 
 /*style sekcji o mnie*/
 
-#about{
+#about {
     background-color: #f9fcfe;
 }
-#about > figure{
+
+#about>figure {
     width: 50%;
     float: left;
     margin: 0;
     text-align: center;
 }
 
-#about > article{
+#about>article {
     width: 50%;
     float: left;
 }
-#about > figure > img {
+
+#about>figure>img {
     max-height: 350px;
     max-width: 100%;
     border: 15px solid #fff;
-    border-radius: 15%;
+    border-radius: 15px;
 }
-
-
-
 
 
 /*koniec sekcji stylów o mnie*/
