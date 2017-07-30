@@ -92,6 +92,7 @@ section h2 {
 
 #about {
     background-color: #f9fcfe;
+    overflow: hidden;
 }
 
 #about>figure {
@@ -115,3 +116,22 @@ section h2 {
 
 
 /*koniec sekcji stylów o mnie*/
+
+
+/*sekcja skills*/
+
+
+#skills > p{
+    text-align: center;
+}
+
+#skills div#skills_icons{
+    text-align: center;
+}
+#skills #skills_icons figure{
+    display: inline-block;
+}
+
+#skills #skills_icons figure img{
+    margin-bottom: 15px;
+}
