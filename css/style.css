@@ -9,6 +9,14 @@ body {
     font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6, h7{
+    text-align: center;
+}
+
+#section{
+    padding: 0 80px 100px;
+    width: 100%;
+}
 
 /*style menu*/
 
@@ -16,6 +24,8 @@ body {
     position: fixed;
     width: 100%;
     background-color: #fff;
+    top: 0;
+    right: 0;
 }
 /*background-color: rgba(255,255,255,0); => dodanie przeźroczystości w menu i "wrzcenie" go na zdjęcie*/
 
@@ -60,9 +70,21 @@ body {
 
 /*koniec stylów nagłówka*/
 
-#about>h2{
-    text-align: center
+#about > figure{
+    width: 50%;
+    float: left;
+    margin: 0;
 }
+
+#about > article{
+    width: 50%;
+    float: left;
+}
+#about > figure > img {
+    max-height: 350px;
+    
+}
+
 
 
 
