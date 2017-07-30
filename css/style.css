@@ -1,25 +1,42 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
-    }
+}
+
 
 /*
 font-family: 'Roboto', sans-serif;
 */
 
-#main_nav{
+#main_nav {
     position: fixed;
+    width: 100%;
     background-color: #fff;
 }
-#main_nav > ul >  li {
+
+#main_nav > ul{
+    float: right;
+}
+
+#main_nav>ul>li {
     display: inline-block;
     list-style: none;
+}
+
+#main_nav>ul>li>a {
+    color: #1ac056;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#main_nav>ul>li>a:hover{
+    color: #291f1a;
 }
 
 /*
