@@ -39,8 +39,13 @@ font-family: 'Roboto', sans-serif;
     color: #291f1a;
 }
 
-/*
-nav#menu>ul>li.menu-item {
-    display: inline-block;
-    padding: 25px;
-    list-style: none;*/
+/*style nagłówka*/
+
+
+#main_header{
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
