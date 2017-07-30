@@ -10,9 +10,7 @@ body {
 }
 
 
-/*
-font-family: 'Roboto', sans-serif;
-*/
+/*style menu*/
 
 #main_nav {
     position: fixed;
@@ -20,7 +18,7 @@ font-family: 'Roboto', sans-serif;
     background-color: #fff;
 }
 
-#main_nav > ul{
+#main_nav>ul {
     float: right;
 }
 
@@ -35,17 +33,29 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
-#main_nav>ul>li>a:hover{
+#main_nav>ul>li>a:hover {
     color: #291f1a;
 }
 
+
+/*koniec stylów menu*/
+
+
 /*style nagłówka*/
 
-
-#main_header{
+#main_header {
     background-image: url(../img/header-background.jpg);
     background-size: cover;
     background-position: center;
 }
 
+#main_header .main_header_content {
+    padding: 30vh;
+}
 
+#main_header .main_header_content h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*koniec stylów nagłówka*/
