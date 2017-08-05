@@ -219,24 +219,58 @@ section h2 {
     color: #1ac056;
 }
 
+
+/*portfolio*/
+
 #portfolio .portfolio-items {
+    text-align: center;
     font-size: 0px;
 }
 
 #portfolio .portfolio-items .single-portfolio-item {
-    width: 33, 33%;
+    height: 350px;
+    width: 33.3333%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: inline-block;
-    font-size: 20px;
+    position: relative;
+}
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    font-size: initial;
+}
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask:hover {
+    opacity: 1;
+}
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content{
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+    color: #fff;
+/*    font-size: initial;*/
+}
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content a{
+    color: #fff;
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
-    background-color: red;
+    background-image: url("../img/portfolio1.jpg");
 }
 
 #portfolio .portfolio-items #portfolio-item-2 {
-    background-color: aqua;
+    background-image: url("../img/portfolio2.jpg");
 }
 
 #portfolio .portfolio-items #portfolio-item-3 {
-    background-color: lightgreen;
+    background-image: url("../img/portfolio4.jpg");
 }
