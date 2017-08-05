@@ -256,9 +256,10 @@ section h2 {
     border: 1px solid #fff;
     margin: 10px;
     position: relative;
+    margin-top: 0px;
     /*    color: #fff;*/
     /*    font-size: initial;*/
-    padding: 5px;
+    /*    padding: 5px;*/
 }
 
 #portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content {
