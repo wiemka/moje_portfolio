@@ -136,3 +136,45 @@ section h2 {
 #skills #skills_icons figure img{
     margin-bottom: 15px;
 }
+
+/*sekcja kontakt*/
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+        overflow: hidden;
+}
+
+
+#contact .contact-data{
+    width: 50%;
+    float: left;
+}
+
+
+/*
+#contact .contact-data h2 {
+    text-align: left;
+    font-size: 38px;
+}
+*/
+
+#contact .contact-data address{
+    font-style: normal;
+    line-height: 25px;
+    margin: 72px 0;
+}
+
+#contact .contact-data address a{
+    color: #1ac056;
+}
+
+#contact .contact-data .contact-social-icons a{
+/*    display: inline-block*/
+    color: #213b50;
+}
+#contact .contact-form{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
