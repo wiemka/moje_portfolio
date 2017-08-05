@@ -199,7 +199,7 @@ section h2 {
 }
 
 #contact .contact-form input:focus,
-#contact .contact-form textarea:focus{
+#contact .contact-form textarea:focus {
     background-color: #426684;
 }
 
@@ -211,5 +211,32 @@ section h2 {
     font-weight: 600;
     padding: 15px 30px;
     border: 1px #1ac056 solid;
-    
+    float: right;
+}
+
+#contact .contact-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+#portfolio .portfolio-items {
+    font-size: 0px;
+}
+
+#portfolio .portfolio-items .single-portfolio-item {
+    width: 33, 33%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#portfolio .portfolio-items #portfolio-item-1 {
+    background-color: red;
+}
+
+#portfolio .portfolio-items #portfolio-item-2 {
+    background-color: aqua;
+}
+
+#portfolio .portfolio-items #portfolio-item-3 {
+    background-color: lightgreen;
 }
