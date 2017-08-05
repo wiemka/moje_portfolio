@@ -1,0 +1,16 @@
+@media all and (max-width: 1200px){
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 50%
+    }
+    #portfolio .portfolio-items .single-portfolio-item:last-child{
+        width: 100%
+    }
+}
+    
+@media all and (max-width: 992px){
+    
+}
+
+@media all and (max-width: 768px){
+    
+}

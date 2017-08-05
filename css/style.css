@@ -250,17 +250,34 @@ section h2 {
 #portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask:hover {
     opacity: 1;
 }
-#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content{
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content {
     height: 330px;
     border: 1px solid #fff;
     margin: 10px;
     position: relative;
-    color: #fff;
-/*    font-size: initial;*/
+    /*    color: #fff;*/
+    /*    font-size: initial;*/
+    padding: 5px;
 }
 
-#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content a{
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
     color: #fff;
+    text-align: center;
+}
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content a {
+    color: #fff;
+}
+
+#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-content a:hover{
+    color: #1ac056;
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
@@ -274,3 +291,5 @@ section h2 {
 #portfolio .portfolio-items #portfolio-item-3 {
     background-image: url("../img/portfolio4.jpg");
 }
+
+/*footer styles*/
