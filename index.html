@@ -21,6 +21,7 @@
     <!--    podlinkowanie arkusza responsive.css-->
     <link rel="stylesheet" href="css/responsive.css">
 
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
 <body>
@@ -61,7 +62,7 @@
 
         <article>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt similique unde adipisci, impedit </p>
-           </article>
+        </article>
     </section>
 
     <!--koniec sekcji o mnie-->
@@ -98,12 +99,14 @@
     </section>
 
 
-<!--koniec sekcji skills-->
-    
-<!--sekcja kontakt-->
+    <!--koniec sekcji skills-->
+
+    <!--sekcja kontakt-->
     <section id="contact">
         <div class="section-data">
-            <h2>Magdalena <spam>Wielgosz</spam></h2>
+            <h2>Magdalena
+                <spam>Wielgosz</spam>
+            </h2>
             <address>
             ul. Filtrowa 75/17<br />
             02-032 Warszawa<br /><br />
@@ -111,18 +114,34 @@
             e-mail: <a href="mailto:biuro@biuro.pl">biuro@biuro.pl</a>
             </address>
             <div class="contact-social-icons">
-                
+                <a href="">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-linkedin"></i>
+                </a>
             </div>
         </div>
         <div class="contact-form">
             <form action="" method="POST">
-            <input type="text" name="imie-nazwisko" placeholder="Imię i Nazwisko" />
-            <input type="email" name="email" placeholder="Adres mailowy" />
-            <textarea name="wiadomosc" cols="30" rows="10" placeholder="Treść wiadomości"></textarea>
-            <input type="submit" value="Wyślij" />
+                <input type="text" name="imie-nazwisko" placeholder="Imię i Nazwisko" />
+                <input type="email" name="email" placeholder="Adres mailowy" />
+                <textarea name="wiadomosc" cols="30" rows="10" placeholder="Treść wiadomości"></textarea>
+                <input type="submit" value="Wyślij" />
             </form>
         </div>
     </section>
+
+    <footer>
+        <p class="copyright">Copyright &copy; Magdalena Wielgosz</p>
+    </footer>
 </body>
 
 </html>
