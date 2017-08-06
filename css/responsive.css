@@ -47,11 +47,11 @@
 @media all and (max-width: 768px) {
     
     /*responsywny nagłówek*/
-    h1{
+    #main_header .main_header_content h1{
         font-size: 3em;
     }
-    h2{
-        font-size: 1.5sm;
+    #main_header .main_header_content h2{
+        font-size: 1.5em;
     }
     
 /*koniec responsywnego nagłówka*/
