@@ -8,7 +8,6 @@
 }
 
 @media all and (max-width: 992px) {
-
     #main_nav .toggle {
         display: block;
         background-color: #fff;
@@ -20,19 +19,22 @@
         border: none;
         text-align: right;
     }
-        #main_nav>ul {
+    #main_nav>ul {
         display: none;
         margin: 0;
         float: left;
     }
+    #drop:checked+ul {
+        display: block;
+    }
     #main_nav>ul>li {
         display: inline-block;
-        list-style: none;
-        padding: 20px 40px;
-    }
-    #main_nav #drop:checked {
-        display: block;
+        width: 100%;
+        text-align: right;
+        padding: 20px;
     }
 }
 
-@media all and (max-width: 768px) {}
+@media all and (max-width: 768px) {
+    
+}
