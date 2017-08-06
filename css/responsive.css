@@ -5,6 +5,13 @@
     #portfolio .portfolio-items .single-portfolio-item:last-child {
         width: 100%;
     }
+    /*responywne portfolio*/
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 50%;
+    }
+    #portfolio .portfolio-items .single-portfolio-item:last-child {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 992px) {
@@ -41,13 +48,13 @@
     }
     /*koniec responsywnego nagłówka*/
     /*responsywna skecja o mnie*/
-    #about>figure{
+    #about>figure {
         width: 100%;
-        }
-    #about>figure>img{
+    }
+    #about>figure>img {
         max-height: inherit;
     }
-    #about>article{
+    #about>article {
         width: 100%;
     }
     /*koniec responsywnej sekcji o mnie*/
