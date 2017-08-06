@@ -302,7 +302,19 @@ footer {
 /*footer styles*/
 
 
-
 footer #p .copyright{
     margin: 0;
 }
+
+/*responsywność - przygotowanie gruntu*/
+
+
+#main_nav .toggle, #drop {
+    display: none;
+}
+
+/*
+#main_nav .checkbox{
+    display: none;
+}
+*/
