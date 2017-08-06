@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 992px) {
-/*responsywne menu*/
+    /*responsywne menu*/
     #main_nav .toggle {
         display: block;
         background-color: #fff;
@@ -34,25 +34,32 @@
         text-align: right;
         padding: 20px;
     }
-/*koniec responsywnego menu*/
-    
-/*responsywny nagłówek*/
-    #header .main_header_content{
+    /*koniec responsywnego menu*/
+    /*responsywny nagłówek*/
+    #header .main_header_content {
         padding: 10%;
     }
-    
-/*koniec responsywnego nagłówka*/
+    /*koniec responsywnego nagłówka*/
+    /*responsywna skecja o mnie*/
+    #about>figure{
+        width: 100%;
+        }
+    #about>figure>img{
+        max-height: inherit;
+    }
+    #about>article{
+        width: 100%;
+    }
+    /*koniec responsywnej sekcji o mnie*/
 }
 
 @media all and (max-width: 768px) {
-    
     /*responsywny nagłówek*/
-    #main_header .main_header_content h1{
+    #main_header .main_header_content h1 {
         font-size: 3em;
     }
-    #main_header .main_header_content h2{
+    #main_header .main_header_content h2 {
         font-size: 1.5em;
     }
-    
-/*koniec responsywnego nagłówka*/
+    /*koniec responsywnego nagłówka*/
 }
