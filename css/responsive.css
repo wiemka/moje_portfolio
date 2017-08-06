@@ -58,9 +58,29 @@
         width: 100%;
     }
     /*koniec responsywnej sekcji o mnie*/
+    /*responsywna sekcja kontakt*/
+    #contact .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    #contact .contact-form {
+        width: 100%;
+    }
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+    }
 }
 
 @media all and (max-width: 768px) {
+    nav,
+    header,
+    #about,
+    #skills,
+    #portfolio,
+    #contact,
+    footer {
+        padding: 0 40px 50px;
+    }
     /*responsywny nagłówek*/
     #main_header .main_header_content h1 {
         font-size: 3em;
