@@ -8,11 +8,7 @@
 }
 
 @media all and (max-width: 992px) {
-/*
-    #main_nav>ul {
-        display: block;
-    }
-*/
+
     #main_nav .toggle {
         display: block;
         background-color: #fff;
@@ -24,12 +20,17 @@
         border: none;
         text-align: right;
     }
+        #main_nav>ul {
+        display: none;
+        margin: 0;
+        float: left;
+    }
     #main_nav>ul>li {
         display: inline-block;
         list-style: none;
         padding: 20px 40px;
     }
-    #main_nav #drop:checked+ul {
+    #main_nav #drop:checked {
         display: block;
     }
 }
