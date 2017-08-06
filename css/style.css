@@ -31,6 +31,12 @@ section h2 {
     margin-bottom: 35px;
 }
 
+footer {
+    background-color: #142634;
+    padding: 0 80px;
+    color: #fff;
+    overflow: hidden;
+}
 
 /*style menu*/
 
@@ -294,3 +300,9 @@ section h2 {
 }
 
 /*footer styles*/
+
+
+
+footer #p .copyright{
+    margin: 0;
+}
